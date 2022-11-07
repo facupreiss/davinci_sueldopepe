@@ -5,7 +5,7 @@ public class Main {
         Cadete pepe = new Cadete();
 
         System.out.println(String.format("El sueldo total del empleado es %f",
-                pepe.calcularSueldoNeto()
+                pepe.calcularSueldoTotal(0)
                 ));
     }
 }
