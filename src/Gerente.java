@@ -1,14 +1,12 @@
-public class Cadete implements EmpleadoI{
+public class Gerente implements EmpleadoI{
 
     @Override
     public double calcularSueldoNeto() {
-        return 1500;
+        return 1000;
     }
 
     @Override
     public double calcularBonoPorPresentismo(int diasAusente) {
-        if (diasAusente == 0) return 100;
-        if (diasAusente == 1) return 50;
         return 0;
     }
 
